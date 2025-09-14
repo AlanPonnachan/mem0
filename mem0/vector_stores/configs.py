@@ -31,6 +31,7 @@ class VectorStoreConfig(BaseModel):
         "faiss": "FAISSConfig",
         "langchain": "LangchainConfig",
         "s3_vectors": "S3VectorsConfig",
+        "vespa": "VespaConfig",
     }
 
     @model_validator(mode="after")
